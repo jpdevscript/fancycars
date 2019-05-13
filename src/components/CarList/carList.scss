@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  // grid-row-gap: 1rem;
+  &--main {
+    background-color: #e1f5fe;
+    padding: 0 30rem;
+    display: grid;
+    grid-row-gap: 5rem;
+  }
+
+  &--header {
+    display: grid;
+    background-color: #64b8ee;
+    padding: 10px 0;
+    grid-template-columns: 1fr;
+    &__text-select {
+      justify-self: center;
+    }
+  }
+  &--footer {
+    display: grid;
+    background-color: #64b8ee;
+    &__self {
+      justify-self: center;
+    }
+  }
+}
